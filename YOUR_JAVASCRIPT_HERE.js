@@ -16,3 +16,6 @@ function equipWeapon() {
     console.log(rest + "");  
 }
 
+
+console.log("test");
+
