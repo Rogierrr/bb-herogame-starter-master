@@ -6,7 +6,7 @@ let hero = {name: "",
             heroic: (true) ,    
             inventory: [], 
             health: 10, 
-            weapon:{ type: "", damage: 2},} 
+            weapon:{ type: "dagger", damage: 2},} 
 
 console.log(hero)
   
@@ -19,10 +19,16 @@ console.log(hero)
 // Function Resting
 
 function rest(person) {
-    if (health = 10) {
-        alert("Health 100%")}
+    if (person.health <10) {person.health = 10
+           }else alert("Health 100%")
         return person
 }
+
+// function rest(person) {
+//     if (person.health <10) {console.log(healt.person [10])
+//     }
+// } else alert
+// return person
 
 
 
@@ -32,6 +38,11 @@ function rest(person) {
 function pickUpItem(person = hero, weapon) {
     console.log(pickUpItem + "");
 }
+
+// document.getElementById("dagger")
+// let daggerKnife = document.getElementById("dagger")
+// weapon[4] = daggerKnife
+
 
 // Function equipWeapon
 
