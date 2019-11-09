@@ -36,7 +36,7 @@ function rest(person) {
 // Function pickUpItem
 
 function pickUpItem(person = hero, weapon) {
-    console.log(pickUpItem + "");
+   push.weapon; console.log(pickUpItem + "");
 }
 
 // document.getElementById("dagger")
